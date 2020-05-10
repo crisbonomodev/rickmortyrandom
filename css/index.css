@@ -6,17 +6,30 @@ body {
   background-image: url(../assets/background.jpg);
 }
 
-header {
-  margin: 0 auto;
-}
-header h1 {
+.logo {
   text-align: center;
-  font-size: 40px;
-  padding-top: 50px;
+}
+.logo img {
+  width: 300px;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnCharacter {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #44CE61;
+  color: white;
+  border: none;
+  border-radius: 10px;
 }
 
 .character--container {
-  padding-top: 50px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;

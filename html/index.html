@@ -6,12 +6,15 @@
   </head>
   <body>
     <header>
-      <h1>Rick&Morty Randomizer</h1>
+      <div class="logo"><img src="../assets/logo.png">
+        <h1>Randomizer</h1>
+      </div>
     </header>
     <div class="main">
-      <div class="character--container">
-        <button class="btnCharacter" id="btnCharacter">Generar!</button>
+      <div class="btnContainer">
+        <button class="btnCharacter" id="btnCharacter" onClick="getCharacter()">Generar!</button>
       </div>
+      <div class="character--container"></div>
       <div class="social--media-container"></div>
     </div>
     <footer>
