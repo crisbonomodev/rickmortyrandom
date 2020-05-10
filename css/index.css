@@ -29,7 +29,7 @@ body {
 }
 
 .character--container {
-  padding-top: 10px;
+  padding-top: 10 px;
   display: flex;
   flex-direction: column;
   justify-content: center;
