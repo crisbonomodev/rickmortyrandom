@@ -3,7 +3,8 @@
 }
 
 body {
-  background-image: url(../assets/background.jpg);
+  background-image: url(https://wallpaperaccess.com/full/831749.png);
+  background-size: cover;
 }
 
 .logo {
@@ -14,6 +15,10 @@ body {
 }
 
 .btnContainer {
+  display: none;
+}
+
+.show-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +27,7 @@ body {
 .btnCharacter {
   margin-top: 30px;
   padding: 10px 20px;
-  background-color: #44CE61;
+  background-color: #02B1C8;
   color: white;
   border: none;
   border-radius: 10px;
