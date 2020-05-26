@@ -32,8 +32,7 @@ async function getData(url) {
 
 function characterTemplate(character){
     return(
-     ` <div class="character--container">
-        <div class="character--image-container">
+     `  <div class="character--image-container">
         <img class="character_img" src="${character.image}" alt="Photo">
         </div>
         <h3 class="character_name">Nombre: ${character.name}</h3>
